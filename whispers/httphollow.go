@@ -33,7 +33,7 @@ func (h *HTTPHollow) GetServer() *http.Server {
 }
 
 func (h *HTTPHollow) Listen() {
-    go h.Srv.ListenAndServe()
+    h.Srv.ListenAndServe()
     time.Sleep(WHISPERS_SERVER_DELAY)
 }
 

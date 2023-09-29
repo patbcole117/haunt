@@ -1,6 +1,5 @@
 package whispers
 
-
 const (
 	CURSE_TYPE_ERROR  int = iota
 	CURSE_TYPE_HELLO
